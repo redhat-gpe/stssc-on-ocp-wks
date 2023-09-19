@@ -1,7 +1,4 @@
 resources:
-- kafka-cluster.yaml
-- kafka-topic-globex-orders.yaml
-- kafka-topic-globex-tracking.yaml
 - dep-activity-tracking-simulator.yaml
 - dep-activity-tracking.yaml
 - dep-catalog-database.yaml

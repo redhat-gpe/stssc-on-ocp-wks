@@ -11,8 +11,6 @@ spec:
     value: "{{ $.Values.globex.gitea.manifestRepo }}"
   - name: manifestFile
     value: "{{ $.Values.globex.gitea.manifestFile }}"
-  - name: manifestFileProd
-    value: "{{ $.Values.globex.gitea.manifestFileProd }}"
   - name: manifestRepoName
     value: "{{ $.Values.globex.gitea.manifestRepoName }}"
   - name: tlsVerify

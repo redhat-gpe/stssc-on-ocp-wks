@@ -27,8 +27,6 @@ spec:
     name: imageRepoProd
   - description: The file to update to point to newly built image
     name: manifestFile
-  - description: The file to update to point to newly built image in prod
-    name: manifestFileProd
   - description: The repo to update to point to newly built image
     name: manifestRepo
   - description: The full name of the repo
@@ -64,8 +62,6 @@ spec:
         value: $(tt.params.io.openshift.build.commit.ref)-$(tt.params.io.openshift.build.commit.id)
       - name: MANIFEST_FILE
         value: $(tt.params.manifestFile)
-      - name: MANIFEST_FILE_PROD
-        value: $(tt.params.manifestFileProd)
       - name: MANIFEST_REPO
         value: $(tt.params.manifestRepo)
       - name: MANIFEST_REPO_NAME

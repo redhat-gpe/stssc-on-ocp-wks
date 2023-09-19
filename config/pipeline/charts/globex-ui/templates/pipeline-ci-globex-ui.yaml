@@ -18,8 +18,6 @@ spec:
     type: string
   - name: MANIFEST_FILE
     type: string
-  - name: MANIFEST_FILE_PROD
-    type: string
   - name: MANIFEST_REPO
     type: string
   - name: MANIFEST_REPO_NAME

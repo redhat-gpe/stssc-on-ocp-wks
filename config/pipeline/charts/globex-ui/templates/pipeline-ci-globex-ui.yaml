@@ -128,7 +128,7 @@ spec:
     - name: insecure-skip-tls-verify
       value: "true"
     runAfter:
-    - build-sign-image
+    - build-image
     taskRef:
       kind: Task
       name: acs-image-scan
@@ -137,7 +137,7 @@ spec:
     - name: cyclonedxHostUrl
       value: $(params.CYCLONEDX_HOST_URL)
     runAfter:
-    - build-sign-image
+    - build-image
     taskRef:
       kind: Task
       name: generate-sbom

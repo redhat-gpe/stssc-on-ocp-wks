@@ -15,10 +15,6 @@ globex:
     token: ""
   sonarqube:
     hostUrl: ""
-  cosign:
-    privateKey: ""
-    password: ""
-    publicKey: ""
   cyclonedx:
     hostUrl: ""
 
